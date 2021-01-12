@@ -132,3 +132,8 @@ systemctl start syncthing@syncthing.service
 ```
 
 Done
+
+Now you can access the webgui on
+```
+https://youripaddress:8384/
+```
