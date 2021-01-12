@@ -1,6 +1,4 @@
-# syncthing
-
-You can choose between the “stable” (latest release) or “candidate” (earlier release candidate) tracks. The stable channel is updated usually every first Tuesday of the month.
+# Syncthing
 
 ### Add the "stable" channel to your APT sources:
 ```
@@ -69,6 +67,14 @@ Prepare the storage devices
 ```
 fdisk /dev/sda
 fdisk /dev/sdb
+```
+
+Create the new partition on each device
+```
+n
+p
+*ENTER*
+*ENTER*
 ```
 
 Install mdadm
